@@ -93,16 +93,13 @@ button
 }
 .cCards
 {
+  position: absolute;
+  top: 63%;
+  left: 0;
   width: 50%;
   margin-top: 0.3%;
   margin-left: 25%;
 }
-
-
-
-
-
-
 
 
 
@@ -268,45 +265,6 @@ button
     padding: 4% !important;
   }
 }
-
-@media (max-width: 414px) {
-  .cCards
-  {
-    margin-top: 0%;
-  }
-}
-
-@media (max-width: 412px) {
-  .cCards
-  {
-    margin-top: 20%;
-    margin-bottom: 0%;
-  }
-}
-
-@media (max-width: 393px) {
-  .cCards
-  {
-    margin-top: 20%;
-    margin-bottom: 0%;
-  }
-}
-
-@media (max-width: 375px) {
-  .cCards
-  {
-    margin-top: 20%;
-    margin-bottom: 0%;
-  }
-}
-@media (max-width: 360px) {
-  .cCards
-  {
-    margin-top: 20%;
-    margin-bottom: 0%;
-  }
-}
-
 @media (max-width: 280px) {
   .cCards
   {
