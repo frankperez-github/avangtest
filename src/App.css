@@ -30,7 +30,7 @@ p
 }
 .container
 {
-  position: absolute;
+  position: fixed;
   top: 5%;
   width: 55%;
   margin-left: 22.5%;
