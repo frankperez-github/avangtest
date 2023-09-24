@@ -94,15 +94,82 @@ button
 .cCards
 {
   width: 50%;
-  margin: 0.3% 23%;
-  margin-bottom: 0;
+  margin-top: 0.3%;
+  margin-left: 25%;
 }
 
 
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+  .cCards
+  {
+    margin-top: 3.8%;
+    margin-left: 25%;
+    margin-right: 0;
+    width: 50%;
+  }
+  .logo
+  {
+    width: 30%;
+  }
+  h1
+  {
+    font-size: 25px;
+  }
+  p
+  {
+    font-size: 17px;
+  }
+  .siteButton p, input
+  {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1368px) {
+  .cCards
+  {
+    margin-top: 17%;
+  }
+}
+@media (max-width: 1024px) {
   .elipse
   {
     margin-top: 0%;
+  }
+  .cCards
+  {
+    margin-top: 20.4%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 0;
+  }
+  .logo
+  {
+    width: 30%;
+  }
+  h1
+  {
+    font-size: 23px;
+  }
+  p
+  {
+    font-size: 15px;
+  }
+  .siteButton p, input
+  {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .elipse
+  {
+    margin-top: -26.4%;
     width: 100%;
   }
   .container
@@ -118,11 +185,47 @@ button
   .cCards
   {
     width: 90%;
-    margin: 6.5% 5%;
+    margin: 0% 5%;
     margin-bottom: 0;
   }
+  h1
+  {
+    font-size: 25px;
+  }
+  p
+  {
+    font-size: 18px;
+  }
+  .siteButton p, input
+  {
+    font-size: 15px;
+  }
 }
-@media (max-width: 414px) {
+@media (max-width: 540px) {
+  .cCards
+  {
+    margin-top: 33%;
+  }
+  h1
+  {
+    font-size: 23px;
+  }
+  p
+  {
+    font-size: 15px;
+  }
+  .siteButton p, input
+  {
+    font-size: 12px;
+  }
+  form
+  {
+    width: 80%;
+    margin-top: 0;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 425px) {
   .logo
   {
     width: 60%;
@@ -145,8 +248,9 @@ button
   }
   .cCards
   {
-    margin-top: 2.5%;
-    margin-left: 0;
+    margin-top: 5.1%;
+    margin-left: 0%;
+    margin-right: 0;
     width: 100%;
   }
   form
@@ -162,5 +266,62 @@ button
   input, button
   {
     padding: 4% !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .cCards
+  {
+    margin-top: 41%;
+  }
+}
+
+@media (max-width: 412px) {
+  .cCards
+  {
+    margin-top: 47%;
+  }
+}
+
+@media (max-width: 393px) {
+  .cCards
+  {
+    margin-top: 41.3%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cCards
+  {
+    margin-top: 2.5%;
+  }
+}
+@media (max-width: 360px) {
+  .cCards
+  {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 280px) {
+  .cCards
+  {
+    margin-top: 57%;
+  }
+  h1
+  {
+    font-size: 18px;
+  }
+  p
+  {
+    font-size: 12px;
+  }
+  .siteButton p, input
+  {
+    font-size: 8px;
+  }
+  form
+  {
+    margin-left: 5%;
   }
 }

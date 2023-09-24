@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 
 
 function App() {
+
     const [joined, setJoined] = useState(false)
 
     const handleSubmit = ()=>{
@@ -11,7 +12,7 @@ function App() {
     
     return(
         <div className="main" translate="yes">
-            <img src={window.innerWidth > 768 ? "/elipse.svg": window.innerWidth > 414 ? "/tabletElipse.svg" : "/mobileElipse.svg"} alt="" className="elipse"/>
+            <img src={window.innerWidth > 768 ? "/elipse.svg": window.innerWidth > 425 ? "/tabletElipse.svg" : "/mobileElipse.svg"} alt="" className="elipse"/>
             <div className="container" style={{paddingTop: (joined && window.innerWidth <= 768)  && "20%"}}>
                 <img src="/logo.svg" alt="logo"  className="logo"/>
                 <h1>
@@ -32,9 +33,9 @@ function App() {
                 </p>
                 {   
                     !joined && 
-                    <form action="submit">
+                    <form action="submit" onSubmit={handleSubmit}>
                         <input required="true" type="email" name="" id="" placeholder="Introduzca su dirección de correo"/>
-                        <button className="siteButton" onClick={handleSubmit}>
+                        <button className="siteButton">
                             <div className="buttonContent">
                                 <img src="/check.svg" alt="" />
                                 <p>Unirme a la lista de espera</p>
