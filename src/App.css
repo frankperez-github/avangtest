@@ -272,34 +272,34 @@ button
 @media (max-width: 414px) {
   .cCards
   {
-    margin-top: 41%;
+    margin-top: 0%;
   }
 }
 
 @media (max-width: 412px) {
   .cCards
   {
-    margin-top: 41%;
+    margin-bottom: 0%;
   }
 }
 
 @media (max-width: 393px) {
   .cCards
   {
-    margin-top: 41.3%;
+    margin-bottom: 0%;
   }
 }
 
 @media (max-width: 375px) {
   .cCards
   {
-    margin-top: 2.5%;
+    margin-bottom: 0%;
   }
 }
 @media (max-width: 360px) {
   .cCards
   {
-    margin-top: 30%;
+    margin-bottom: 0%;
   }
 }
 
