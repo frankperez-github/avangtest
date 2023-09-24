@@ -1,4 +1,101 @@
 *
 {
   margin: 0;
+  padding: 0;
+}
+h1
+{
+  font-size: 30px;
+}
+p
+{
+  font-weight: 300;
+  font-size: 23px;
+}
+.siteButton p, input
+{
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  *
+  {
+    display: none;
+  }
+}
+
+
+.main
+{
+  background-color: #DBDBDB;
+}
+.elipse
+{
+  margin-top: -2%;
+  width: 100%;
+}
+.container
+{
+  position: absolute;
+  top: 5%;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+.logo, h1, p
+{
+  margin-bottom: 3%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 20%;
+  margin-top: 5%;
+}
+input
+{
+  padding: 2%;
+  border-radius: 5px;
+  border-width: 1px;
+}
+input:focus
+{
+  margin-bottom: -0.6%;
+  border: solid;
+  border-color: #FF7708;
+}
+.buttonContent
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  padding: 0 15%;
+  align-items: center;
+}
+.buttonContent p
+{
+  margin: 0;
+}
+button
+{
+  width: 70%;
+  margin: 0 15%;
+}
+.siteButton
+{
+  cursor: pointer;
+  border: none;
+  padding: 2%;
+  margin-top: 3%;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: #00B265;
+  color: white;
+}
+.cCards
+{
+  width: 50%;
+  margin: 0% 23%;
+  margin-bottom: 0;
 }
