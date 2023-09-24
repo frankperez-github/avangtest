@@ -20,7 +20,7 @@ p
 
 .main
 {
-  height: 100vmax !important;
+  height: 100vh !important;
   background-color: #DBDBDB;
 }
 .elipse
