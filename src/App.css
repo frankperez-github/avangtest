@@ -17,16 +17,10 @@ p
   font-size: 20px;
 }
 
-@media (max-width: 768px) {
-  *
-  {
-    display: none;
-  }
-}
-
 
 .main
 {
+  height: 100vh;
   background-color: #DBDBDB;
 }
 .elipse
@@ -38,9 +32,13 @@ p
 {
   position: absolute;
   top: 5%;
-  width: 60%;
-  margin-left: 20%;
+  width: 55%;
+  margin-left: 22.5%;
   text-align: center;
+}
+.logo
+{
+  width: 35%;
 }
 .logo, h1, p
 {
@@ -96,6 +94,73 @@ button
 .cCards
 {
   width: 50%;
-  margin: 0% 23%;
+  margin: 0.3% 23%;
   margin-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+  .elipse
+  {
+    margin-top: 0%;
+    width: 100%;
+  }
+  .container
+  {
+    width: 90%;
+    margin-left: 5%;
+  }
+  form
+  {
+    width: 90%;
+    margin: 10% 5%;
+  }
+  .cCards
+  {
+    width: 90%;
+    margin: 6.5% 5%;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 414px) {
+  .logo
+  {
+    width: 60%;
+  }
+  h1
+  {
+    font-size: 22px;
+  }
+  p
+  {
+    font-size: 16px;
+  }
+  .siteButton p, input
+  {
+    font-size: 11px;
+  }
+  .elipse
+  {
+    margin-top: -5%;
+  }
+  .cCards
+  {
+    margin-top: 2.5%;
+    margin-left: 0;
+    width: 100%;
+  }
+  form
+  {
+    margin-top: 10%;
+    width: 90%;
+  }
+  button
+  {
+    width: 100%;
+    margin-left: 0;
+  }
+  input, button
+  {
+    padding: 4% !important;
+  }
 }
