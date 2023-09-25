@@ -30,10 +30,21 @@ p
   margin-top: -2%;
   width: 100%;
 }
+.circle
+{
+  background-image: url('../public/elipse.svg');
+  background-size: cover;
+  background-position: center center;
+  height: 52vh;
+  padding: 5% 0;
+  padding-top: 3%;
+  border-radius: 0 0 50% 50% / 0 0 90% 90%; 
+  /* background-color: white; */
+}
 .container
 {
-  position: fixed;
-  top: 5%;
+  /* position: fixed;
+  top: 5%; */
   width: 55%;
   margin-left: 22.5%;
   text-align: center;
@@ -173,8 +184,13 @@ button
   }
   .container
   {
+    padding: 3% 0;
     width: 90%;
     margin-left: 5%;
+  }
+  .circle
+  {
+    border-radius: 0 0 0% 0% / 0 0 90% 90%; 
   }
   form
   {
@@ -208,6 +224,10 @@ button
   h1
   {
     font-size: 23px;
+  }
+  .circle
+  {
+    height: 80vh;
   }
   p
   {
